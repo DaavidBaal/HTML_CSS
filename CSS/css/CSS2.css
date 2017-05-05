@@ -1,6 +1,30 @@
-h1 { color:red; font-family:30px }
-h2{color:yellow;font-family:20px }
-p.p1{color:rebeccapurple;font-family:15px;}
-p.p2{color:magenta; font-size:10px }
-p.p3{color:olivedrab; font-family:10px}
-footer{ color:green;font-family:10px }
+h1{
+	font-family:"Bavand",fantasy;
+	font-size:46px;
+	color:red;
+}
+span.Autor{
+	font-weight:bold;
+	text-decoration:underline;
+	color:blue;
+}
+p{
+	font-family: "Averia Sans Libre",cursive;
+	font-size:18px;	
+}
+/* p#p2 se puede indicar de las dos siguientes maneras*/
+p:nth-of-type(2){}
+p:nth-child(3) {font-family: "Pacifico", cursive;;
+	font-size:14px;
+}
+q{
+	font-style:italic;
+	color:green;
+	quotes: "«" "»";
+}
+/*q:before, q:after {content: quotes;}*/
+/* p.Fuentes */
+
+address, p:nth-of-type(4) {
+	font-size:12px;
+}
