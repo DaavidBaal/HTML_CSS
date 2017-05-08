@@ -1,4 +1,15 @@
-h1 { color:blue; font-family:30px }
-h2{color:yellow;font-family:20px }
-p{color:rebeccapurple;font-family:15px;}
-footer{ color:green;font-family:10px }
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1 { 
+    color:blue; font-family: 'Open Sans', sans-serif; 
+    }
+h2
+{color:yellow;font-family:20px 
+}
+p{
+    color:rebeccapurple;font-family:15px;
+    }
+footer{
+     color:green;font-family:10px 
+     }
