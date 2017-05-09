@@ -6,12 +6,20 @@ h1{ text-align: center ;
     font-size: 46px;
     quotes: ""
 }
-
-p.p1{
+img{ margin: 1px 20em
+}
+p{
     width: 300px;
-    margin: 20px auto 20px auto;
+    margin: 5px auto 5px auto;
     padding: 50px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 36px
+    font-size: 26px
 }
 
+ul{
+     width:50%;
+     min-width: 400px;
+     margin: 1em auto;
+     border: solid 2px yellow;
+     padding: 1em 2em
+}
