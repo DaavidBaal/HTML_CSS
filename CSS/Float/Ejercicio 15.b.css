@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    /*background: #993333;*/
+}
+
+article{
+    display:flex;
+    border-top:solid black 3px;
+   
+    
+}
+
+section{
+    flex:1 1 10%;
+    margin:0 1%;
+    padding: 1%;
+    background-color: #adad85;
+}
+
+
+section:hover{
+    flex:2 1 10%;
+}
+
+footer{
+    border-top:solid black 3px;
+}
