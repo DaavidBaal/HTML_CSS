@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+*{box-sizing:border-box}
+
 /*font-family: 'Lato', sans-serif; */
+
 body{
+    width: 90%;
+    margin:3em auto;
     background-color:yellow;
     font-family:'Lato', sans-serif;}
-h1{
+
+h1{ text-align: center;
  font-family: Arial, Helvetica, sans-serif; color: brown;}
+
+img{
+    /*display: block */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}

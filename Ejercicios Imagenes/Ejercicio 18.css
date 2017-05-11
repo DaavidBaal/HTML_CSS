@@ -1,0 +1,20 @@
+body{
+    background-color: cadetblue ;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; color:red;
+    text-align: center;
+    }
+
+figure{
+    float:left
+}
+
+section.England{display: table;
+                float:Center;
+	    	    width: 90%;
+	    	    border-style: solid;
+			    border-width: 2px 0px;
+			     margin: 0.1em auto ;
+                border-collapse: separate;
+                border-spacing: 15px;}
