@@ -1,0 +1,20 @@
+h1 {color: red}
+p.Biblio {font-size: 16px; color: blue;}
+
+
+
+cite.Titulo {font-size: 20px; color:coral}
+cite.Tit_Original {font-size: 18px; color: forestgreen}
+strong.Autor {font-size: 20px; color: black;}
+span.Serie {color: navy;}
+span.Editorial {color: maroon;}
+time {font-size: 14px; color: teal;}
+time.Fecha_Original {}
+time.Fecha_Edicion {}
+		    
+	    
+cite[itemprop=Titulo] {font-size: 20px;  color:coral}
+cite[itemprop=Tit_Original] {font-size: 18px;}
+strong[itemprop="Autor"] {font-size: 20px; color: black;}
+span[itemprop="Serie"] {color: navy;}
+span[itemprop="Editorial"] {color: maroon;}
