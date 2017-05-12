@@ -24,3 +24,21 @@ embed{
     width: 50%;}
 
 
+
+#audio{
+    width: 100%; 
+    text-align: center;
+    margin: ;
+}
+audio{
+    width: 50%;
+text-align:right;}
+
+#iframe{
+    width: 100%;
+    text-align: center;}
+
+iframe{
+    width: 50%;
+    text-align: center;
+}
