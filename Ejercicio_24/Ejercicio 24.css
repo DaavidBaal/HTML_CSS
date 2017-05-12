@@ -1,0 +1,16 @@
+*{box-sizing:border-box}
+
+nav{ width: 25%;
+overflow: auto;
+background-color: peachpuff;}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 100%;
+}
+
+li{ list-style: none;
+    float: left;
+    width:25%; 
+}
