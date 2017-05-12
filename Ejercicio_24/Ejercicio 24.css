@@ -1,6 +1,6 @@
 *{box-sizing:border-box}
 
-nav{ width: 25%;
+nav{ width: 50%;
 overflow: auto;
 background-color: peachpuff;}
 
@@ -12,5 +12,12 @@ ul{
 
 li{ list-style: none;
     float: left;
-    width:25%; 
+    width:25%;
+    height: 2em;
+    border: 1px solid brown;
+    text-align: center;
+}
+a{text-decoration: none;
+
+
 }
