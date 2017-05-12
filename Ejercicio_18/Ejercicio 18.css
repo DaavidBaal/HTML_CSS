@@ -52,4 +52,5 @@ section{
     margin-right:  2%;
     width: 45%;
     float: right;
+    border-left: 3px solid black;
     text-align: justify}
