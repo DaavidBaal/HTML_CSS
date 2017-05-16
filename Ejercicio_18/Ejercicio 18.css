@@ -67,3 +67,9 @@ section{
     float: right;
     text-align: justify;
 }
+
+img{
+    float: left;
+    margin-right:  2%;
+
+}
