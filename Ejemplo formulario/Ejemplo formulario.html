@@ -12,25 +12,31 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 </head>
 
 <body>
     <form method="get" action="form.asp">
         <p>
             <label for="first_name">Nombre</label>
-            <input type="texto" id="first_name"name="first_name" value="">
+            <input type="texto" id="first_name"name="first_name" value="" placeholder="Escribe tu nombre">
+            
         </p>
         <p>
             <label for="family_name">Apellidos</label>
-            <input type="texto" name="family_name" id="family_name">
+            <input type="texto" name="family_name" id="family_name" required>
         </p>
         <p>
             <label for="">Correo</label>
-            <input type="email" name="email" value="">
+            <input type="email" name="email" value="@tajamar365.com">
         </p>
         <p>
             <label for="">Contraseña</label>
             <input type="Password" name="email" value="">
+        </p>
+         <p>
+            
+            <input type="submit" name="send" value="Enviar">
         </p>
 
     </form>
