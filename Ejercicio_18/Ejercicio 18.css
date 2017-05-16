@@ -46,11 +46,11 @@ section{
     margin-left: 2%;
     width: 45%;
     float: left;
-    text-align: justify;}
+
+}
 
 #second_paragraph{
     margin-right:  2%;
     width: 45%;
     float: right;
-    border-left: 3px solid black;
-    text-align: justify}
+}
