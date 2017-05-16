@@ -70,8 +70,6 @@ section{
     text-align: justify;
 }
 
-img{
-    float: left;
-    margin-right:  2%;
-
-}
+img{ margin-right: 2%;
+     width: 45%;
+     float: left;}
