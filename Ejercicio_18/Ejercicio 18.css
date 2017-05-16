@@ -58,14 +58,14 @@ section{
 
 #first_paragraph{
     margin-left: 2%;
-    width: 45%;
+    width: 40%;
     float: left;
     text-align: justify;
 }
 
 #second_paragraph{
     margin-right:  2%;
-    width: 45%;
+    width: 40%;
     float: right;
     text-align: justify;
 }
