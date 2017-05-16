@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*font-family: 'Oswald', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+/*font-family: 'Slabo 27px', serif;*/
+
+
 body{
     background-color:white;
     background-image: url("Imagenes/Fondo.jpg");}
@@ -10,9 +17,13 @@ header{
     color: white;
     text-align: center;
     background-color: CadetBlue;
+    font-family: font-family: 'Oswald', sans-serif;
     width: 100%;
     height: 80px;
     padding: 45px;
+}
+article{
+    font-family: Slabo 27px', serif;
 }
 
 footer{
