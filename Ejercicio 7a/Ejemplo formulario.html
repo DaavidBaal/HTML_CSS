@@ -48,10 +48,11 @@
             <input type="checkbox" name="acepto" value="">
             <label for="acepto">He leido y acepto las condiciones</label>
             <p>Elige un horario</p>
-            <input type="radio" name="horario" ><label for="">Mañana</label>
-            <input type="radio" name="horario" ><label for="">Tarde</label>
-            <input type="radio" name="horario" ><label for="">Noche</label>
-            
+            <ul style="list-style-type:none">
+            <li><input type="radio" name="horario" value="M"><label for="">Mañana</label></li>
+            <li><input type="radio" name="horario" value="T"><label for="">Tarde</label></li>
+            <li><input type="radio" name="horario" value="N"><label for="">Noche</label></li>
+            </ul>
         </fieldset>
     </form>
     <form method="get" action="https://www.google.es/search" name="buscar">
