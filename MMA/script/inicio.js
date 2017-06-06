@@ -1,4 +1,4 @@
-/* When the user clicks on the button, 
+/* Cuando el usuario haga click en el boton, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
