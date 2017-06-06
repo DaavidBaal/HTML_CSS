@@ -4,6 +4,10 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function noticias() {
+    document.getElementById("noticias").classList.toggle("mostrar");
+}
+
 /***************************************
  * Cierra el menu si clicas fuera de el
  ***************************************/
