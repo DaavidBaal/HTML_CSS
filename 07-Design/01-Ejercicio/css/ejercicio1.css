@@ -30,6 +30,10 @@ body>section, body>div{
 body>section{
    width: 70%}
 
-aside{
+body>div{
 width: 30%;
+}
+
+.clear_fix{
+    clear: both
 }
