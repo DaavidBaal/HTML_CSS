@@ -7,10 +7,12 @@
     <title>Artes Marciales</title>
     <meta name="description" content="Artes Marciales">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--**********************Link a Favicon********************-->
-      <link  href="favicon/favicon.ico">
-    <!--**********************Link a CSS********************-->
+    <!--**********************Link a Favicon****************************-->
+    <link href="favicon/favicon.ico">
+    <!--**********************Link a CSS*******************************-->
     <link rel="stylesheet" href="css/mma.css">
+    <!--**********************Link a JavaScript*******************************-->
+    <script type="text/javascript" src="script/inicio.js"></script>
 
 </head>
 
@@ -19,14 +21,22 @@
         <h1>Artes Marciales</h1>
     </header>
     <nav>
-        <div class="flex-container">
-            <div class="flex-item">   <a href="#karate">Karate</a></div>
-            <div class="flex-item"><a href="#Judo">Judo</a></div>
-            <div class="flex-item"><a href="#Jujitsu">Jujitsu</a></div>
-            <div class="flex-item"><a href="#Aikido">Aikido</a></div>
-            <div class="flex-item"><a href="#">Kung-Fu</a></div>
-            <div class="flex-item"><a href="#">Taekwondo</a></div>
-            <div class="flex-item"><a href="#Kendo">Kendo</a></div>
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Dropdown</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#Kendo">Kendo</a>
+                    <a href="#karate">Karate</a>
+                    <a href="#Judo">Judo</a> 
+                    <a href="#Jujitsu">Jujitsu</a>
+                    <a href="#Aikido">Aikido</a>
+                    <a href="#">Kung-Fu</a>
+                    <a href="#">Taekwondo</a>
+
+                </div>
+            </div>
         </div>
     </nav>
     <article>
