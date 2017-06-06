@@ -3,6 +3,24 @@
 body{
     width: 90%;
     margin: 2em auto;
-    background-color: ;
+    background-color: gray;
     
     }
+
+#menu{
+    
+    background-color: red ;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    display: inline;
+    margin: auto;
+    border: 1px solid  white;
+}
