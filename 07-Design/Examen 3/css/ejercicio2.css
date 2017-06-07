@@ -22,7 +22,8 @@ width: 29%;}
 }
 
 footer{
-    display: block;
+    overflow: auto;
+    display: inline;
     text-align: center;
 }
 div#articulo1{
@@ -40,4 +41,15 @@ div#articulo2{
     margin: 1.5%;
      width: 45%;
      float: left;
+}
+
+#imagen3{
+    margin: 1.5%;
+     width: 45% auto;
+     
+}
+
+
+#bonito{
+    display: inline-block;
 }
