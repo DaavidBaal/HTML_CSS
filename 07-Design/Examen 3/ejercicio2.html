@@ -12,6 +12,10 @@
 	<link rel="shortcut icon" href="image/favicon.ico">
 	<!--***************Link a CSS*********************-->
 	<link rel="stylesheet" href="css/ejercicio2.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<!--***************Link a JavaScript*********************-->
+	<script type="text/javascript" src="script/menu.js"></script>
+
 </head>
 
 <body>
@@ -23,13 +27,18 @@
 		</div>
 	</header>
 	<nav>
-		<div id="menu">
-			<ul>
-				<li>UFC</li>
-				<li>Noticias</li>
-				<li>Historia</li>
-			</ul>
-		</div>
+		<div class="container">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Dropdown</button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
 	</nav>
 	<section>
 		<div id="articulo1">
@@ -99,7 +108,7 @@
 	<div id="footer">
 		<footer>
 			<address>
-			Daavidbaal@hotmail.com 
+				Daavidbaal@hotmail.com
 			</address>
 			<p>Copyright © Daavid Baal</p>
 		</footer>
