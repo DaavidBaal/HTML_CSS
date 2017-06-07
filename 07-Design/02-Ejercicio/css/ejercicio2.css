@@ -43,12 +43,13 @@ width: 29%;}
 }
 
 footer{
-    
+    display: block;
 }
 div#articulo1{
     float: left;
     clear: left;
  width: 50%;
+ margin-right:2%
 }
 
 div#articulo2{
