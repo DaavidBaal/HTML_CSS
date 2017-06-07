@@ -13,27 +13,35 @@ body{
 
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
+nav{
+    border: 1px solid maroon;
+    overflow: auto;
 }
-li{
-    display: inline;
-    margin: auto;
-    border: 1px solid  white;
+ 
+nav ul {
+    list-style-type: none;
+   
+}
+nav ul li{
+     display: inline;
+     margin: auto;
+     border: 1px solid  white;
 }
 
 body>section, body>div{
     float: left;}
+
 body>section{
-   width: 70%;}
+   width: 69%;
+   margin-right: 2%;}
 
 body>div{
-width: 30%;
-}
+width: 29%;}
 
 .clear_fix{
     clear: both
+}
+
+footer{
+    
 }
