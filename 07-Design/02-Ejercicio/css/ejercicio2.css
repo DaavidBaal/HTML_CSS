@@ -59,7 +59,7 @@ div#articulo2{
 }
 
 #imagen{
-    width: 200px auto;
-    height: 100px;
-    float:left;
+    margin-right: 2%;
+     width: 45%;
+     float: left;
 }
