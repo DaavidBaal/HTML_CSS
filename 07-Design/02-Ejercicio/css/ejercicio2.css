@@ -48,16 +48,18 @@ footer{
 }
 div#articulo1{
     float: left;
-    clear: left;
- width: 50%;
- margin-right:2%
+    width: 50%;
+    margin-right:2%
 }
 
 div#articulo2{
     float: right;
     width: 50%;
+    display: inline;
 }
 
 img{
     width: 400px auto;
+    height: 200px;
+    float:left;
 }
