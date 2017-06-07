@@ -56,3 +56,7 @@ div#articulo2{
     float: right;
     width: 50%;
 }
+
+img{
+    width: 400px auto;
+}
