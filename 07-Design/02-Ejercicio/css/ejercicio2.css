@@ -58,8 +58,8 @@ div#articulo2{
     display: inline;
 }
 
-img{
-    width: 400px auto;
-    height: 200px;
+#imagen{
+    width: 200px auto;
+    height: 100px;
     float:left;
 }
