@@ -7,6 +7,10 @@ body{
     
     }
 
+
+ 
+
+
 body>section, body>div{
     float: left;}
 
@@ -23,7 +27,6 @@ width: 29%;}
 
 footer{
     display: block;
-    text-align: center;
 }
 div#articulo1{
     float: left;
@@ -40,4 +43,42 @@ div#articulo2{
     margin: 1.5%;
      width: 45%;
      float: left;
+}
+
+
+#menu{
+    
+    background-color: red ;
+
+}
+
+nav{
+    border: 1px solid maroon;
+    overflow: auto;
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
