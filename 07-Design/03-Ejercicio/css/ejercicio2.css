@@ -1,0 +1,63 @@
+*,*::before,*::after,*:before,*:after, {box-sizing: border-box;}
+
+body{
+    width: 90%;
+    margin: 2em auto;
+    background-color: gray;
+    
+    }
+
+#menu{
+    
+    background-color: red ;
+
+}
+
+nav{
+    border: 1px solid maroon;
+    overflow: auto;
+    background-color: red;
+}
+ 
+nav ul {
+    list-style-type: none;
+   
+}
+nav ul li{
+     display: inline;
+     margin: auto;
+     border: 1px solid  white;
+}
+
+body>section, body>div{
+    float: left;}
+
+body>section{
+   width: 69%;
+   margin-right: 2%;}
+
+body>div{
+width: 29%;}
+
+.clear_fix{
+    clear: both
+}
+
+footer{
+    display: block;
+}
+div#articulo1{
+    float: left;
+    clear: left;
+ width: 50%;
+ margin-right:2%
+}
+
+div#articulo2{
+    float: right;
+    width: 50%;
+}
+
+img{
+    width: 400px auto;
+}
