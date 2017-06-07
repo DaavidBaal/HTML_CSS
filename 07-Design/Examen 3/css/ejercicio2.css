@@ -23,7 +23,7 @@ width: 29%;}
 
 footer{
     overflow: auto;
-    display: inline;
+    display: both;
     text-align: center;
 }
 div#articulo1{
@@ -50,6 +50,3 @@ div#articulo2{
 }
 
 
-#bonito{
-    display: inline-block;
-}
