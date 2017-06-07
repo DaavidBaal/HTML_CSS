@@ -16,6 +16,7 @@ body{
 nav{
     border: 1px solid maroon;
     overflow: auto;
+    background-color: red;
 }
  
 nav ul {
