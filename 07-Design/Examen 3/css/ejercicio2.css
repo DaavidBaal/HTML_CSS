@@ -3,7 +3,7 @@
 
 
 body{
-    width: 90%;
+    max-width: 1024px;
     margin: 2em auto;
     background-color: gray;
     
@@ -13,7 +13,7 @@ body>section, body>div{
     float: left;}
 
 body>section{
-   width: 69%;
+  width: 69%;
    margin-right: 2%;}
 
 body>div{
