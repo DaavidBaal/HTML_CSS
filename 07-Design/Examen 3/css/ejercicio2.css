@@ -69,12 +69,11 @@ figure{
 }
 
 figcaption{
-    
+    margin-right: 1em;
 }
 #imagen3{
-    margin: 1%;
-     width: 50% ;
-     
+margin: 1%;
+   width: 50%;     
 }
 
 
