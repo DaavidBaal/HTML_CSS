@@ -54,12 +54,3 @@ catalogo{
     width:25% auto;
 }
 
-
-#barra {
-  width: 100%;
-  height: 30px;
-  background-color: blue;
-  text-align: center;
-  line-height: 30px;
-  color: white;
-}
