@@ -115,3 +115,15 @@ margin: 1%;
 }
 
 /*************Menu estilo hamburguesa*****************************/
+nav{
+    background-color: red;
+    border: 1px solid;
+    font-family: sans-serif; color: white;
+}
+
+nav ul  {
+	list-style-type: none;}
+
+    nav a { 
+	display: none;}
+}
