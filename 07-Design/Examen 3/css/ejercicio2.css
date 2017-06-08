@@ -64,6 +64,7 @@ catalogo{
    body>div{
 width: 100%;}
 
+/*************Paso los figures a posicion horizontal*****************************/
 figure{
     display: inline-block;
 }
@@ -99,6 +100,7 @@ div#articulo2{
 
 body>div{
 width: 100%;}
+
 /*************Paso los figures a posicion horizontal*****************************/
 figure{
     display: inline-block;
