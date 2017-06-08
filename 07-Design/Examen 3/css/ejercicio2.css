@@ -58,10 +58,42 @@ catalogo{
 /**********Tamaño entre 768px y 480 px**********************/
 @media screen and (max-device-width: 768px) and (min-device-width: 480px) {
     body>section{
-  width: 98%;
-   margin: 2%;}
+  width: 100% auto;
+   margin-left: 10%;}
 
+   body>div{
+width: 100%;}
+
+figure{
+    display: inline-block;
+}
+
+figcaption{
+    
+}
+#imagen3{
+    margin: 1%;
+     width: 50% ;
+     
+}
+
+
+
+}
 /**********Tamaño de 480px(Modo movil)**********************/
 @media screen and (max-device-width: 480px) {
+      body>section{
+  width: 100% auto;
+   margin-left: 10%;}
+
+    div#articulo1{
+    float: left;
+    width: 49%;
+    margin-right:1%
+}
+
+div#articulo2{
+    float: right;
+    width: 50%;
     
 }
