@@ -25,6 +25,7 @@ width: 29%;}
 
 footer{
 text-align: center;
+margin-top: 2em;
  clear: both;
 }
 div#articulo1{
@@ -55,3 +56,13 @@ catalogo{
     width:25% auto;
 }
 
+@media screen and (max-device-width: 768px) {
+    .column {
+        float: none;  }
+}
+
+
+@media screen and (max-device-width: 480px) {
+    .column {
+        float: none;  }
+}
