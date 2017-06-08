@@ -26,7 +26,8 @@ width: 29%;}
 }
 
 footer{
-    display: block;
+    width: 100% auto;
+    text-align: center;
 }
 div#articulo1{
     float: left;
@@ -92,7 +93,12 @@ li a:hover {
   line-height: 30px;
   color: white;
 }
+article>div{
+    column-rule-width: 10%;
+    column-rule-color: white;
+}
 
-article::{
+article::nth-of-type{
     column-count: 2;
+    margin-top: 0;
 }
