@@ -13,6 +13,7 @@
 	<!--***************Link a CSS*********************-->
 	<link rel="stylesheet" href="css/ejercicio2.css">
 	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/menu2.css">
 	<!--***************Link a JavaScript*********************-->
 	<script type="text/javascript" src="script/menu.js"></script>
 
@@ -20,26 +21,31 @@
 
 <body>
 	<header>
-		<div id="container">
 			<div id="header">
 				<h1>Editorial Vende Libros</h1>
 			</div>
-		</div>
 	</header>
 	<nav>
-		<div class="container">
-			<a href="#home">Noticias</a>
-			<a href="#news">Premios</a>
-			<div class="dropdown">
-				<button class="dropbtn" onclick="myFunction()">Enlaces</button>
-				<div class="dropdown-content" id="myDropdown">
-					<a href="https://www.planetadelibros.com/libros/novela-literaria/00012">Novela literaria</a>
-					<a href="https://www.planetadelibros.com/libros/actualidad/00030">Juvenil</a>
-					<a href="https://www.planetadelibros.com/libros/autoayuda/00002">Autoayuda</a>
-				</div>
-			</div>
-		</div>
+		<ul>
+			<li>Home</li>
+			<li>Servicios</li>
+			<li>Noticias
+				<ul>
+					<li>España</li>
+					<li>Europa</li>
+					<li>Mundo</li>
+				</ul>
+			</li>
+			<li>Categoría
+				<ul>
+					<li><a href="https://www.planetadelibros.com/libros/novela-negra/00015">Novela Negra</a></li>
+					<li><a href="https://www.planetadelibros.com/libros/novelas-de-policias/00015/00140">Novela Policias</a></li>
+					<li><a href="https://www.planetadelibros.com/libros/ciencia-ficcion/00048">Ciencia Ficción</a></li>
+				</ul>
+			</li>
+		</ul>
 	</nav>
+		
 	<section>
 		<div id="articulo1">
 			<article>
@@ -97,6 +103,19 @@
 	</section>
 	<div>
 		<aside>
+			<h2>Las páginas de nuestros autores</h2>
+			<div class="container">
+			<div class="dropdown">
+				<button class="dropbtn" onclick="myFunction()">Enlaces de Interes</button>
+				<div class="dropdown-content" id="myDropdown">
+					<a href="https://www.planetadelibros.com/libros/novela-literaria/00012">Novela literaria</a>
+					<a href="https://www.planetadelibros.com/libros/actualidad/00030">Juvenil</a>
+					<a href="https://www.planetadelibros.com/libros/autoayuda/00002">Autoayuda</a>
+				</div>
+			</div>
+		</div>
+		</aside>
+		<aside>
 			<h2>ÚLTIMAS NOVELAS PUBLICADAS</h2>
 			<figure>
 				<a href="https://www.planetadelibros.com/libro-latidos/250386"><img id="imagen3" src="image/portada_latidos_franck-thilliez_201703201827.jpg" alt="Portada Latidos" title="Latidos"></a>
@@ -111,14 +130,12 @@
 				<figcaption>Con un par de alas:Alba Saskia</figcaption>
 			</figure>
 		</aside>
-		<aside>
-			<h2>Las páginas de nuestros autores</h2>
-		</aside>
+		
 	</div>
 	<hr>
 	<footer>
 		<address>
-			Daavidbaal@hotmail.com
+			editorialvendelibros@hotmail.com
 		</address>
 		<p>Copyright © Daavid Baal</p>
 	</footer>
