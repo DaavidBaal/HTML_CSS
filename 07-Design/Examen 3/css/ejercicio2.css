@@ -55,13 +55,15 @@ div#articulo2{
 catalogo{
     width:25% auto;
 }
+/**********Tamaño de 768px**********************/
+@media screen and (max-device-width: 768px) and (min-device-width: 480px) {
+    body>section{
+  width: 98%;
+   margin: 2%;}
 
-@media screen and (max-device-width: 768px) {
-    .column {
-        float: none;  }
 }
 
-
+/**********Tamaño de 480px**********************/
 @media screen and (max-device-width: 480px) {
     .column {
         float: none;  }
