@@ -45,11 +45,21 @@ div#articulo2{
 
 #imagen3{
     margin: 1%;
-     width: 45% auto;
+     width: 40% ;
      
 }
 
 
 catalogo{
     width:25% auto;
+}
+
+
+#barra {
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  text-align: center;
+  line-height: 30px;
+  color: white;
 }

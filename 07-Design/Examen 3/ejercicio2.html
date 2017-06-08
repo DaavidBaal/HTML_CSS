@@ -22,9 +22,9 @@
 
 <body>
 	<header>
-			<div id="header">
-				<h1>Editorial Vende Libros</h1>
-			</div>
+		<div id="header">
+			<h1>Editorial Vende Libros</h1>
+		</div>
 	</header>
 	<nav>
 		<ul>
@@ -46,7 +46,7 @@
 			</li>
 		</ul>
 	</nav>
-		
+
 	<section>
 		<div id="articulo1">
 			<article>
@@ -99,6 +99,24 @@
 
 				</p>
 				<h3>Más de 200.000 ejemplares vendidos Un fenómeno internacional LEER PRIMER CAPÍTULO</h3>
+				<h2>Libera tu cerebro</h2>
+				<p>¿Cómo podemos comprar una piedra preciosa pagando con un papel en blanco? ¿Por qué una mujer es, de media, veinte veces
+					más selectiva que un hombre en una aplicación como Tinder? ¿En qué se asemeja la estafa del esquema Ponzi a nuestra
+					democracia?
+				</p>
+				<img id="imagen2" src="image/portada_libera-tu-cerebro_idriss-aberkane_201703151041.jpg" alt="Portada Libro Idriss-Aberkane">
+
+
+				<p>A veces nos cuesta entender hasta qué punto la simplicidad de nuestro cerebro determina nuestro entorno. Abusamos de
+					las palabras genio y prodigio cuando, en realidad, el plusmarquista mundial de cálculo o el compositor de la más bella
+					melodía tienen exactamente las mismas neuronas que cualquiera de nosotros. ¿Dónde reside pues la diferencia entre ellos
+					y nosotros? Pues, según afirma Aberkane, en la armonía de la mente. En que aquellos a los que erróneamente llamamos
+					genios han sabido entender los mecanismos de nuestro cerebro para sacarle así un mayor rendimiento.</p>
+				<p>Entender cómo funciona el cerebro y adecuar sus mecanismos a nuestra manera de aprender, de enseñar, de trabajar y de
+					vivir es lo que Idriss Aberkane llama neurosabiduría. Es tan fácil como eso. Basta con sacarle partido a los extraordinarios
+					recursos que la naturaleza ha puesto a nuestra disposición.
+
+				</p>
 			</article>
 		</div>
 	</section>
@@ -106,18 +124,20 @@
 		<aside>
 			<h2>Las páginas de nuestros autores</h2>
 			<div class="container">
-			<div class="dropdown">
-				<button class="dropbtn" onclick="myFunction()">Enlaces de Interes</button>
-				<div class="dropdown-content" id="myDropdown">
-					<a href="https://www.planetadelibros.com/libros/novela-literaria/00012">Novela literaria</a>
-					<a href="https://www.planetadelibros.com/libros/actualidad/00030">Juvenil</a>
-					<a href="https://www.planetadelibros.com/libros/autoayuda/00002">Autoayuda</a>
+				<div class="dropdown">
+					<button class="dropbtn" onclick="myFunction()">Enlaces de Interes</button>
+					<div class="dropdown-content" id="myDropdown">
+						<a href="https://www.planetadelibros.com/libros/novela-literaria/00012">Novela literaria</a>
+						<a href="https://www.planetadelibros.com/libros/actualidad/00030">Juvenil</a>
+						<a href="https://www.planetadelibros.com/libros/autoayuda/00002">Autoayuda</a>
+					</div>
 				</div>
 			</div>
-		</div>
 		</aside>
 		<aside>
-			<progress value="" max=""></progress>
+	
+			<progress id="barra"  value="22" max="100">10%</progress>
+			<button onclick="move()">Cargar</button>
 		</aside>
 		<aside>
 			<h2>ÚLTIMAS NOVELAS PUBLICADAS</h2>
@@ -134,7 +154,7 @@
 				<figcaption>Con un par de alas:Alba Saskia</figcaption>
 			</figure>
 		</aside>
-		
+
 	</div>
 	<hr>
 	<footer>
