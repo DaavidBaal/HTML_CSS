@@ -87,12 +87,27 @@ margin: 1%;
 
     div#articulo1{
     float: left;
-    width: 49%;
+    width: 100%;
     margin-right:1%
 }
 
 div#articulo2{
     float: right;
-    width: 50%;
+    width: 100%;
     
+}
+
+body>div{
+width: 100%;}
+/*************Paso los figures a posicion horizontal*****************************/
+figure{
+    display: inline-block;
+}
+
+figcaption{
+    margin-right: 1em;
+}
+#imagen3{
+margin: 1%;
+   width: 50%;     
 }
