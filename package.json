@@ -1,0 +1,29 @@
+{
+  "name": "html1_css",
+  "version": "1.0.0",
+  "description": "Ejemplos de HTML5 y CSS",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "html y css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaavidBaal/HTML_CSS.git"
+  },
+  "keywords": [
+    "html5",
+    "y",
+    "css3"
+  ],
+  "author": "david",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaavidBaal/HTML_CSS/issues"
+  },
+  "homepage": "https://github.com/DaavidBaal/HTML_CSS#readme"
+}
