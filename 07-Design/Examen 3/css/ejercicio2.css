@@ -68,7 +68,7 @@ div.button{
 }
 
 /**********Tamaño entre 768px y 480 px**********************/
-@media screen and (max-device-width: 768px) and (min-device-width: 480px) {
+@media screen and (max-width: 767px) and (min-width: 479px) {
     body>section{
   width: 100% auto;
    margin-left: 10%;}
@@ -96,7 +96,7 @@ div.ocultar{
 
 }
 /**********Tamaño de 480px(Modo movil)**********************/
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
       body>section{
   width: 100% auto;
    margin-left: 10%;}
