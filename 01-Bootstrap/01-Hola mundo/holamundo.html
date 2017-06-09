@@ -12,7 +12,12 @@
     <script src="../../node_modules/jquery/dist/jquery.js"></script>
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <style>
-        .logotipo{
+        header {
+            background-color: brown;
+            color: antiquewhite;
+        }
+
+        .logotipo {
             background-color: palegreen;
             color: blueviolet;
         }
@@ -22,14 +27,29 @@
 <body>
     <div class="container">
         <div class="row">
-            <header class="col-sm-8 col-md-6 col-lg-12">
+            <header class="col-sm-6 col-sm-offset-2">
                 <h1>Hola Mundo Bootstrap</h1>
             </header>
 
-            <div class="logotipo col-sm-8 col-md-6 col-lg-12">
+            <div class="logotipo col-sm-4">
                 Aqui ira mi logotipo
             </div>
+
         </div>
+        <!--Esto es el cierre del row-->
+        <div class="row">
+            <section class="col-sm-9">
+                <div class="row">
+                
+                <article class="col-sm-6">Articulo 1</article>
+                <article class="col-sm-6">Articulo 2</article>
+                </div>
+            </section>
+            <aside class="col-sm-3">
+                Aside
+            </aside>
+        </div>
+        <!--Cierre del row-->
     </div>
 
 </body>
