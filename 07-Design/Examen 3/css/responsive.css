@@ -1,5 +1,5 @@
 .responsive2 {
-    background-color: #4CAF50;
+    background-color:red;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -8,7 +8,7 @@
 }
 
 .responsive2:hover, .responsive2:focus {
-    background-color: #3e8e41;
+    background-color: blue;
 }
 
 .button {
