@@ -15,9 +15,13 @@
 	<link rel="stylesheet" href="css/ejercicio2.css">
 	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" href="css/menu2.css">
+	<link rel="stylesheet" href="css/responsive.css">
 	<!--***************Link a JavaScript*********************-->
 	<script type="text/javascript" src="script/menu.js"></script>
 	<script type="text/javascript" src="script/responsive.js"></script>
+	<!--***************Link a jQuery*********************-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
 
 </head>
 
@@ -47,7 +51,15 @@
 			</li>
 		</ul>
 	</nav>
-
+<div class="button">
+<button onclick="miFuncion()" class="responsive2">Menu</button>
+  <div id="Desplegable" class="sorpresa">
+    <a href="#home">Home</a>
+    <a href="#about">Servivios</a>
+    <a href="#Noticias">Noticias</a>
+	<a href="#category">Categoría</a>
+  </div>
+</div>
 	<section>
 		<div id="articulo1">
 			<article>
@@ -109,7 +121,7 @@
 					y crearon conjuntamente este poemario, y del que ya ni ellos mismos recuerdan quién escribió qué, tal fue la simbiosis
 					o la enajenación vivida en aquel entonces.
 				</p>
-				<img id="imagen2" src="image/las-moscas-lo-devoran-todo.jpg" alt="Portada Libro Kutxi Romero">				
+				<img id="imagen2" src="image/las-moscas-lo-devoran-todo.jpg" alt="Portada Libro Kutxi Romero">
 				<p><cite>"Estuve buscando erratas y asonancias, como para dármelas de listo y entender por intrusismo la labor de Kutxi. Con mala
 				leche, sí. Pero francamente, no encontré fallos de forma y a cambio, supe distinguir la voz de dos poetas cabreados con
 				el mundo, que merecen lanzar su quejío y que sabrían defenderse en el mundo de la poesía con la cabeza bien alta. Vamos,
@@ -131,10 +143,10 @@
 				</div>
 			</div>
 		</aside>
-		
+
 		<aside>
 			<h2>ÚLTIMAS NOVELAS PUBLICADAS</h2>
-			
+
 			<figure>
 				<a href="https://www.planetadelibros.com/libro-latidos/250386"><img id="imagen3" src="image/portada_latidos_franck-thilliez_201703201827.jpg" alt="Portada Latidos" title="Latidos"></a>
 				<figcaption>Latidos: Franck Thilliez</figcaption>
@@ -148,34 +160,50 @@
 				<figcaption>Con un par de alas:Alba Saskia</figcaption>
 			</figure>
 		</aside>
-	
+
 	</div>
 
 	<footer>
 		<hr>
-		<address>
-			editorialvendelibros@hotmail.com
-		</address>
+		<div id="" class="vcard">
+			<span class="fn n">
+    <span class="given-name"></span>
+			<span class="additional-name"></span>
+			<span class="family-name"></span>
+			</span>
+			<div class="org">Editorial Vende libros</div>
+			<a class="email" href="mailto:editorialvendelibros@hotmail.com">editorialvendelibros@hotmail.com</a>
+			<div class="adr">
+				<div class="street-address">Calle Arapiles</div>
+				<span class="locality">Madrid</span> ,
+				<span class="region">Madrid</span> ,
+				<span class="postal-code">49068</span>
+
+				<span class="country-name">España</span>
+
+			</div>
+			<div class="tel">4681330</div>
+		</div>
 		<p>Copyright © Daavid Baal</p>
 		<div class="ocultar">
-		<ul>
-			<li>Home</li>
-			<li>Servicios</li>
-			<li>Noticias
-				<ul>
-					<li>España</li>
-					<li>Europa</li>
-					<li>Mundo</li>
-				</ul>
-			</li>
-			<li>Categoría
-				<ul>
-					<li><a href="https://www.planetadelibros.com/libros/novela-negra/00015">Novela Negra</a></li>
-					<li><a href="https://www.planetadelibros.com/libros/novelas-de-policias/00015/00140">Novela Policias</a></li>
-					<li><a href="https://www.planetadelibros.com/libros/ciencia-ficcion/00048">Ciencia Ficción</a></li>
-				</ul>
-			</li>
-		</ul>
+			<ul>
+				<li>Home</li>
+				<li>Servicios</li>
+				<li>Noticias
+					<ul>
+						<li>España</li>
+						<li>Europa</li>
+						<li>Mundo</li>
+					</ul>
+				</li>
+				<li>Categoría
+					<ul>
+						<li><a href="https://www.planetadelibros.com/libros/novela-negra/00015">Novela Negra</a></li>
+						<li><a href="https://www.planetadelibros.com/libros/novelas-de-policias/00015/00140">Novela Policias</a></li>
+						<li><a href="https://www.planetadelibros.com/libros/ciencia-ficcion/00048">Ciencia Ficción</a></li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</footer>
 </body>
