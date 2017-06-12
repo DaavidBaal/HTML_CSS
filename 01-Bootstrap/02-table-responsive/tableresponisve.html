@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hola Mundo Bootstrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap-theme.css">
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <style>
+        header {
+            background-color: brown;
+            color: antiquewhite;
+        }
+
+        .logotipo {
+            background-color: palegreen;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="table-responsive">
+       
+       <h1>Ejemplo de Tabla</h1>
+    <table border="1">
+        <tr>
+            <th scope="colgroup" colspan="2" rowspan="2" id="Resultados">Resultados de la encuesta</th>
+            <th scope="colgroup" colspan="3" id="Resultados">Edad</th>
+        </tr>
+        <tr>
+            <th scope="col">12 a 25</th>
+            <th scope="col"> 26 a 40</<th>
+            <th scope="col">Más de 40</th>
+        </tr>
+        <tr>
+            <th scope="rowgroup" rowspan="3">¿Cúal es tu destindo<br>
+            preferido para las vacaiones?</th>
+        
+            <th scope="row">Disney-París</th>
+            <td>50%</td>
+            <td>25%</td>
+            <td>25%</td>
+        </tr>
+        <tr>
+            <th scope="row">El Caribe</th>
+            <td>25%</td>
+            <td>50%</td>
+            <td>25%</td>
+        </tr>
+        <tr>
+            <th scope="row">Europa</th>
+            <td>25%</td>
+            <td>25%</td>
+            <td>50%</td>
+        </tr>
+    </div>
+
+</body>
+
+</html>
